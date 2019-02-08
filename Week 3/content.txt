@@ -1,0 +1,27 @@
+enum показывать содержимый файл 
+switch более читательный вариант 
+filesysteminfo=files and folders 
+set установаливать 
+get взять 
+@ для того чтоб get rid of ошибок 
+history peek 
+switch default 
+directoryinfo = folder
+filesystem = file  
+we have a folder and we can open it through open and it shows all files that the folder contains for directory info and filesystem 
+using= automatically closes the file after it moves to the next arrow 
+console clear 
+foreground 
+background 
+
+upperarrow
+downarraow
+enter
+backspace 
+peek is a method of stack which allows the show the last file of the stack 
+pop deletes the last element in stack 
+удалить файл 
+переминовать файл rename 
+filemove directorymove\add numeration to each file 
+создать паку и переименовать имя и удалить оригинальный файл 
+два раза запустить или по конманде 

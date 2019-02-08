@@ -1,0 +1,6 @@
+file system 
+setget
+foreach 
+directinfo
+fileinfo 
+changing the color of the bla 
