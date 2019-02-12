@@ -9,20 +9,20 @@ namespace Task1new
     {
         class Program
         {
-            static void IsPalindrome(string s)
+            static void IsPalindrome(string s)//this function is created in order to check whether the writtin string is palindrome or not 
             {
                 bool p = true;
 
-                for (int i = 0; i < s.Length; i++)
+                for (int i = 0; i < s.Length; i++)//running from 0 till the length of string s 
                 {
-                    if (s[s.Length - 1 - i] != s[i])
+                    if (s[s.Length - 1 - i] != s[i])//comapres elements between each other
                     {
                         p = false;
                         break;
                     }
                 }
 
-                if (p)
+                if (p)//if the above funciton is true then output will be yes, else will be no
                 {
                     Console.WriteLine("Yes");
                 }
@@ -40,9 +40,9 @@ namespace Task1new
 
                 IsPalindrome(line);
 
-                sr.Close();
-                fs.Close();
-                Console.ReadKey();
-            }
+                sr.Close();//closes StreamReader
+                fs.Close();//closes FileStream
+                Console.ReadKey();// holds terminal open , until we press any key to do so
+        }
         }
     }
