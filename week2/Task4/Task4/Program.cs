@@ -21,9 +21,16 @@ namespace Task4
             File.Delete("C:/Users/Aida/Desktop/pp2/PP2/week2/Task4/path/file.txt");//deleting the file
         }
 
+        /*public static void CreateMoveFolder() // this function creates folder and moves it to another directory
+       {
+           Directory.CreateDirectory("C:/Users/Aida/Desktop/pp2/PP2/week2/Task4/path/file");
+           Directory.Move("C:/Users/Aida/Desktop/pp2/PP2/week2/Task4/path/file", "C:/Users/Aida/Desktop/pp2/PP2/week2/Task4/path1/file");
+       }*/
+
         static void Main(string[] args)
         {
             CreateCopyDeleteFile();//recalling this function
+            //CreateMoveFolder();
             Console.ReadKey();//pausing the system
         }
     }
